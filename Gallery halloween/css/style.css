@@ -1,0 +1,78 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+@font-face{
+	font-family: Caveat Regular;
+	src:url(../fonts/Caveat-Regular.ttf);
+}
+main{
+width: 70%;
+margin: auto;
+padding: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: #fff;
+box-shadow: 0 0 70px 50px rgba(255,152,0,1);
+}
+body{
+background-color:black;
+font-family: Caveat Regular;
+
+}
+.photo{
+	max-width: 520px;
+	width: calc(30vw - 40px);
+	height: calc((35vw - 40px)/16 * 9);
+	margin: 20px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.65;
+	transition: opacity,transform 1s,transform 1s,box-shadow 1s;
+
+}
+.photo:hover {
+	opacity: 1;
+	transform:scale(1.5) rotate(360deg);
+	z-index: 10;
+	box-shadow: 0 0 20px 30px rgba(0,0,0,0.5);
+}
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+	color:orange;
+}
+.photo1{
+	background-image: url(../img/01.jpg)
+
+}
+.photo2{
+	background-image: url(../img/02.jpg)
+}
+.photo3{
+	background-image: url(../img/03.jpg)
+}.photo4{
+	background-image: url(../img/04.jpg)
+}.photo5{
+	background-image: url(../img/05.jpg)
+}.photo6{
+	background-image: url(../img/06.jpg)
+}.photo7{
+	background-image: url(../img/07.jpg)
+}.photo8{
+	background-image: url(../img/08.jpg)
+}.photo9{
+	background-image: url(../img/09.jpg)
+}.photo10{
+	background-image: url(../img/10.jpg)
+}.photo11{
+	background-image: url(../img/11.jpg)
+}.photo12{
+	background-image: url(../img/12.jpg)
+}
+
